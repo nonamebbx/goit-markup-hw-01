@@ -68,23 +68,35 @@ button {
   color: #2e2f42;
 }
 /* Navigation  and Contacts*/
-.header .list .link {
+.header .navigation .list .link {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.container > nav {
+.header .contacts .list .link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.navigation {
   display: flex;
   align-items: center;
 }
-.container > nav > ul {
+.navigation ul {
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
 .contacts {
   font-style: normal;
+}
+.contacts .list {
+  display: flex;
+  gap: 40px;
 }
 .header > div > nav > ul > li > a {
   color: #2e2f42;
