@@ -21,11 +21,18 @@ ul {
   padding: 0;
   margin: 0;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+img {
+  display: block;
+}
 .page {
   font-family: var(--font-family);
   color: var(--text-color);
   background-color: var(--background-color);
 }
+
 .container {
   max-width: 1158px;
 }
@@ -75,6 +82,7 @@ button {
 .section-one {
   background-color: #2e2f42;
 }
+
 .header-one {
   font-size: 56px;
   line-height: 1.07;
