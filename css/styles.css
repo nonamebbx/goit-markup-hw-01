@@ -121,7 +121,7 @@ button {
   max-width: 496px;
 }
 .section-one .container {
-  padding: 188px;
+  padding: 188px 0;
 }
 .butt {
   font-family: var(--font-family);
@@ -142,7 +142,22 @@ button {
 .butt:focus {
   background-color: #404bbf;
 }
-
+.section-two {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.section-two .container .list {
+  display: flex;
+  gap: 24px;
+}
 .title-item {
   line-height: 1.2;
   font-weight: 500;
@@ -155,6 +170,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.section-three {
+  padding: 120px 0;
+}
+.section-three .container .list {
+  display: flex;
+  gap: 24px;
+}
 .title {
   font-size: 36px;
   line-height: 1.11;
@@ -165,6 +187,11 @@ button {
 }
 .teammates {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.teammates .container .list {
+  display: flex;
+  gap: 24px;
 }
 .team-list {
   background-color: #ffffff;
