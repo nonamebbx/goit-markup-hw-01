@@ -244,6 +244,8 @@ button {
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: none;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 
   padding: 12px 24px;
 }
@@ -252,7 +254,8 @@ button {
 .filter-button:active {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 /* Portfolio */
 .portfolio-title {
@@ -279,7 +282,7 @@ button {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
+  
 }
 .portfolio-title:hover,
 .portfolio-title:focus {
