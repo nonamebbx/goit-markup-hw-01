@@ -202,13 +202,17 @@ button {
 .team-list {
   background-color: #ffffff;
 }
+.team-list img {
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list .item-area {
+  padding: 32px 16px;
+}
 .team-list .title-item {
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
 .team-list .item-text {
-  margin-bottom: 32px;
   text-align: center;
 }
 .footer {
