@@ -163,12 +163,16 @@ button {
   display: flex;
   gap: 24px;
 }
+.section-two .container .list-item {
+  width: calc((100% - 72px) / 4);
+}
 .title-item {
   line-height: 1.2;
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .item-text {
   font-size: 16px;
@@ -257,7 +261,7 @@ button {
 .filter-button:active {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid #e7e9fc;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
 /* Portfolio */
@@ -280,6 +284,7 @@ button {
   justify-content: center;
   margin-top: 72px;
   flex-wrap: wrap;
+  margin-bottom: 72px;
 }
 .section-portfolio .container .list li {
   border: 1px solid #e7e9fc;
