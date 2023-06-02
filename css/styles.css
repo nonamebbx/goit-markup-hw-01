@@ -268,7 +268,7 @@ button {
   border-radius: 4px;
 }
 /* Portfolio */
-.portfolio-title {
+.section-portfolio .list .projects .projects-text .portfolio-title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -290,8 +290,10 @@ button {
   flex-wrap: wrap;
   margin-bottom: 72px;
 }
+.section-portfolio .container > ul:nth-child(2) {
+  row-gap: 48px;
+}
 .section-portfolio .container .list .projects {
-  margin-bottom: 48px;
   column-gap: 24px;
   width: calc((100% - 48px) / 3);
 }
