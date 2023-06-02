@@ -291,7 +291,7 @@ button {
   margin-bottom: 72px;
 }
 .section-portfolio .container .list .projects {
-  row-gap: 48px;
+  row-gap: 48px !important;
   column-gap: 24px;
   width: calc((100% - 48px) / 3);
 }
