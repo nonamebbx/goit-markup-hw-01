@@ -276,6 +276,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-portfolio {
   padding-top: 96px;
@@ -290,8 +291,7 @@ button {
   margin-bottom: 72px;
 }
 .section-portfolio .container .list .projects {
-
-  row-gap: 48px;
+  margin-bottom: 48px;
   column-gap: 24px;
   width: calc((100% - 48px) / 3);
 }
