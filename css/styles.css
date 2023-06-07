@@ -72,6 +72,7 @@ button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
+  display: block;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
@@ -92,12 +93,13 @@ button {
   gap: 40px;
   margin-right: 332px;
 }
-.contacts {
+.header .contacts {
   font-style: normal;
 }
 .contacts .list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
 }
 .header > div > nav > ul > li > a {
   color: #2e2f42;
@@ -183,7 +185,7 @@ button {
   letter-spacing: 0.02em;
 }
 .section-three {
-  padding: 120px 0;
+  padding: 0;
 }
 .section-three .container .list {
   display: flex;
@@ -245,28 +247,7 @@ button {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.filter-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  border: none;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 
-  padding: 12px 24px;
-}
-.filter-button:hover,
-.filter-button:focus,
-.filter-button:active {
-  color: #ffffff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
 /* Portfolio */
 .section-portfolio .list .projects .projects-text .portfolio-title {
   font-family: var(--font-family);
@@ -282,27 +263,70 @@ button {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.section-portfolio .container .list {
+.section-portfolio ul {
+  list-style: none;
+}
+.buttons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: none;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  padding: 12px 24px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.container .projects-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-top: 72px;
   flex-wrap: wrap;
   margin-bottom: 72px;
 }
-.section-portfolio .container .list .projects {
-  column-gap: 24px;
-  width: calc((100% - 48px) / 3);
+.projects-list .projects {
+  max-width: calc((100% - 48px) / 3);
 }
-.section-portfolio .container .important {
-  row-gap: 48px;
-}
-.section-portfolio .container .list .projects .projects-text {
+.projects-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
   border-top: none;
   border-radius: 4px;
+}
+.portfolio-title {
+  margin-bottom: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+.portfolio-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .portfolio-title:hover,
 .portfolio-title:focus {
