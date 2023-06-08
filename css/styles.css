@@ -185,7 +185,7 @@ button {
   letter-spacing: 0.02em;
 }
 .section-three {
-  padding: 0;
+  padding-bottom: 120px;
 }
 .section-three .container .list {
   display: flex;
@@ -295,10 +295,9 @@ button {
 }
 .container .projects-list {
   display: flex;
-  gap: 24px;
+  gap: 48px 24px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 72px;
 }
 .projects-list .projects {
   max-width: calc((100% - 48px) / 3);
