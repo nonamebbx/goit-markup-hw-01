@@ -109,7 +109,6 @@ button {
   color: #434455;
 }
 .section-one {
-  
   background-color: #2e2f42;
   background-image: url(../images/peopleoffice.jpg);
 }
@@ -165,6 +164,16 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  padding: 24px 100px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .section-two .container .list {
   display: flex;
@@ -318,7 +327,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .portfolio-description {
   font-family: "Roboto";
