@@ -109,7 +109,9 @@ button {
   color: #434455;
 }
 .section-one {
+  
   background-color: #2e2f42;
+  background-image: url(../images/peopleoffice.jpg);
 }
 
 .header-one {
