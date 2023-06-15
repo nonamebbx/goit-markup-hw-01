@@ -305,7 +305,10 @@ button {
 }
 .social-container .social-list {
 gap: 16px;
-
+}
+.social-container .social-list a:hover,
+.social-container .social-list a:focus {
+background-color: #31d0aa;;
 }
 .footer-title {
   font-weight: 500;
