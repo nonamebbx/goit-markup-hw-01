@@ -249,10 +249,14 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  width: 40px;
-  height: 40px;
+
 }
 .social-item  {
+  width: 40px;
+  height: 40px;
+  list-style: none;
+}
+.social-item a {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -260,6 +264,13 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.social-item a:hover,
+.social-item a:focus {
+  background-color: #404bbf;
+}
+.social-icon {
+  fill: #f4f4fd;
 }
 .footer {
   background-color: #2e2f42;
