@@ -55,7 +55,7 @@
           <h1 class="section-one-title">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="section-one-button">
+          <button type="button" data-modal-open class="section-one-button">
             Order Service
           </button>
         </div>
@@ -375,7 +375,7 @@
       <div class="container-footer">
         <div class="foot-container">
           <a href="./index.html" class="logotype link"
-            >Web<span>Studio</span></a
+            >WEB<span>STUDIO</span></a
           >
           <p class="text-footer">
             Increase the flow of customers and sales for your business with
@@ -417,5 +417,16 @@
         </div>
       </div>
     </footer>
+    <!-- Modal menu  -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" type="button" data-modal-close>
+          <svg class="icon-close-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./JS/modal.js"></script>
   </body>
 </html>
