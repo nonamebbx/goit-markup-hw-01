@@ -334,6 +334,11 @@ body {
   background-color: #4d5ae5;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.soc-icon:hover,
+.soc-icon:focus {
+  background-color: #404bbf;
 }
 .icon {
   fill: #f4f4fd;
@@ -354,20 +359,28 @@ body {
   margin-bottom: 120px;
   margin-top: 72px;
 }
-.customer-item {
+
+.customer-link {
   display: flex;
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
+  color: #8e8f99;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customer-link {
+.customer-link:focus,
+.customer-link:hover {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 .customer-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
+
 /* Footer container  */
 .footer {
   background-color: #2e2f42;
@@ -421,4 +434,9 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+.med-icon:hover,
+.med-icon:focus {
+  background-color: #31D0AA;
 }
